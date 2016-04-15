@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MGW - {% block title %}{% endblock %}</title>
+    <style>
+        @import "css/style.css";
+        @import "css/nav.css";
+    </style>
+</head>
+<body>
+
+<nav>
+    <img src="/images/itb.jpg">
+    <h1>Graphics & Gaming Research Group</h1>
+
+    <ul>
+        <li>
+            <a href="/" class="{% block indexNavStyle %}{% endblock %}">Home page</a>
+        </li>
+        <li>
+            <a href="/members" class="{% block membersNavStyle %}{% endblock %}">Members</a>
+        </li>
+        <li>
+            <a href="/projects" class="{% block projectsNavStyle %}{% endblock %}">Projects</a>
+        </li>
+        <li>
+            <a href="/publications" class="{% block publicationsNavStyle %}{% endblock %}">Publications</a>
+        </li>
+    </ul>
+</nav>
+
+
+{% block main %}
+{% endblock %}
+
+<footer>
+    2015 &copy; Conor Simpson B00068887
+</footer>
+</body>
+</html>
