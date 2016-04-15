@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+h3{
+    color:lightblue;
+}
+
+footer {
+    border-top: 0.1rem red solid;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#homeWelcome{
+    margin-left: 400px;
+
+}
+#homeWelcome h3{
+    color:lightblue;
+}
+p{
+    color:white;
+}
